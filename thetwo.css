@@ -200,10 +200,11 @@ h1{
 .project {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin: 100px;
+    margin: auto;
     column-gap: 20px;
-    width: 100%;
+    width: 1300px;
     color: #373333;
+    align-items: center;
     padding-top: 200px;
     padding-bottom: 230px;
 }
