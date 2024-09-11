@@ -2,14 +2,16 @@ body {
     margin: 0;
     background-image: linear-gradient(to right, #434343 0%, black 100%);
 }
-html{
+
+html {
     scroll-behavior: smooth;
 }
-  
-a{
+
+a {
     text-decoration: none;
     color: white;
 }
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -22,11 +24,13 @@ a{
     padding: 10px 5px;
     margin-right: 50px;
 }
-.nii{
+
+.nii {
     padding: 50px 0;
     margin-top: 0;
     margin-left: 0;
-} 
+}
+
 .pro {
     width: 280px;
     height: 280px;
@@ -37,20 +41,23 @@ a{
     margin-top: 30px;
     display: flex;
     box-shadow: rgba(232, 232, 239, 0.25) 0px 50px 100px -20px,
-      rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
-      rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+        rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+        rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
+
 .log {
     width: 100px;
     height: 80px;
 }
-.low img{
+
+.low img {
     margin: -10px;
     height: 55px;
     width: 70px;
     object-fit: contain;
     margin-left: 30px;
-  }
+}
+
 .boss {
     display: flex;
     gap: 130px;
@@ -61,12 +68,14 @@ a{
     font-weight: 500;
     color: white;
 }
+
 .sup {
     width: 30px;
     height: 20px;
     top: 130px;
     margin: -2px;
 }
+
 .namee {
     font-size: 35px;
     font-weight: 500;
@@ -76,6 +85,7 @@ a{
     bottom: 70px;
     color: white;
 }
+
 .jabb {
     width: 60%;
     margin: 180px;
@@ -83,7 +93,8 @@ a{
     display: flex;
     justify-content: space-around;
 }
- .nazz button {
+
+.nazz button {
     width: 150px;
     height: 50px;
     border: none;
@@ -92,20 +103,22 @@ a{
     color: #dfece9;
     background-color: rgb(68, 67, 67);
 }
+
 .nazz button:hover {
     color: rgb(1, 1, 1);
     background-color: rgb(125, 173, 174);
 }
-  
+
 .paraa {
     margin: 0px;
     font-size: 20px;
     font-weight: 400;
     left: 20px;
     font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+        "Lucida Sans", Arial, sans-serif;
     color: white;
-} 
+}
+
 .abbout {
     display: flex;
     width: 100%;
@@ -113,83 +126,99 @@ a{
     color: white;
     align-items: center;
 }
+
 .lap {
     display: flex;
     flex-wrap: wrap;
     padding-left: 150px;
     gap: 20px;
 }
+
 .less {
     margin: 100px;
     font-size: 25px;
     padding: 40px;
 }
-h1{
+
+h1 {
     margin-top: 100px;
     margin-left: 100px;
     color: white;
-  }
-.skk {
-    height: 300px;
-    margin: 50px;
 }
+
+.skk {
+    height: 200px;
+    margin: 200px;
+}
+
 .skill-set-container {
-    background-color: rgba(38,38,38,255); 
+    background-color: rgba(38, 38, 38, 255);
     padding: 30px;
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
-    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+        rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
     border-radius: 20px;
-    width: 800px; 
+    width: 800px;
     text-align: center;
     color: white;
-    margin:100px auto;
+    margin: 100px auto;
 }
-.skill-set-container span{
-      font-size: 18px;
+
+.skill-set-container span {
+    font-size: 18px;
 }
+
 .skill-set-container h1 {
     margin-bottom: 30px;
 }
+
 .skill {
     display: flex;
     align-items: center;
     justify-content: space-around;
     margin-bottom: 15px;
 }
+
 .skill-label {
     display: flex;
     align-items: center;
     width: 120px;
 }
-  .skill-label img {
-    width: 50px; 
+
+.skill-label img {
+    width: 50px;
     margin-right: 10px;
 }
+
 .progress-bar {
     width: 60%;
-    background-color: #444; 
+    background-color: #444;
     border-radius: 10px;
     overflow: hidden;
-} 
+}
+
 .progress {
     height: 10px;
-    background-color: #4caf50; 
+    background-color: #4caf50;
 }
+
 .percentage {
     margin-left: 10px;
 }
+
 .koop {
     text-align: center;
     color: rgb(228, 218, 201);
 }
+
 .fine {
     width: 400px;
     height: 150px;
     background-color: white;
     border-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
-    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+        rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
+
 .looo {
     display: flex;
     margin: auto;
@@ -197,40 +226,55 @@ h1{
     height: 160px;
     justify-content: center;
 }
+
 .project {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin: auto;
     column-gap: 20px;
+    
     width: 1300px;
     color: #373333;
     align-items: center;
     padding-top: 200px;
     padding-bottom: 230px;
 }
+.sahh{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin-left: 100px;
+    column-gap: 100px;
+    
+}
 .project div {
     background-color: rgb(59, 59, 59);
     color: #ffffff;
     width: fit-content;
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
-    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+        rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
     border-radius: 10px;
 }
+
 .project div img {
     height: 200px;
     object-fit: cover;
     width: 300px;
     border-radius: 10px;
 }
+
 .contact {
     padding-bottom: 200px;
 }
+
 .lap {
     font-size: 20px;
 }
+
 .book {
     height: 500px;
-} 
+}
+
 .alii {
     display: flex;
     justify-content: center;
@@ -239,8 +283,9 @@ h1{
     background-color: rgba(38, 38, 38, 255);
     border-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
-    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+        rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
+
 .one {
     width: 300px;
     display: flex;
@@ -249,6 +294,7 @@ h1{
     justify-content: center;
     padding: 20px;
 }
+
 .two {
     color: black;
     display: flex;
@@ -259,26 +305,31 @@ h1{
     border-radius: 0 20px 20px 0;
     justify-content: center;
 }
+
 .letter {
     width: 300px;
     height: 120px;
     object-fit: contain;
     padding-top: 30px;
 }
+
 .icon {
     display: flex;
     column-gap: 30px;
     font-size: large;
 }
+
 h3 {
     color: #18191a;
     font-size: x-large;
     font-weight: 1000px;
 }
+
 .benn {
     color: #fff;
     size: 20px;
 }
+
 .sendd {
     width: 80px;
     height: 50px;
@@ -289,14 +340,153 @@ h3 {
     margin-top: 15px;
     cursor: pointer;
 }
+
 .icon i {
     font-size: 25px;
 }
+
 .two div input {
     width: 220px;
     height: 25px;
 }
+
 .two div textarea {
     width: 220px;
     height: 60px;
+}
+
+@media screen and (max-width:600px) {
+    .navbar {
+        justify-content: flex-start;
+        width: 100vw;
+    }
+
+    .boss {
+        gap: 16px;
+        font-size: 17px;
+    }
+
+    .low img {
+        margin-left: 0;
+    }
+
+    .jabb {
+        display: flex;
+
+        margin: -40px;
+        margin-top: 60px;
+    }
+
+    .namee {
+        font-size: 25px;
+        width: 100%;
+    }
+
+    .paraa {
+        font-size: 16px;
+        margin-top: 320px;
+    }
+
+    .nazz {
+        display: flex;
+        font-size: 15px;
+        column-gap: 20px;
+
+
+    }
+
+    .pro {
+        position: absolute;
+        right: 60px;
+        width: 238px;
+        height: 237px;
+        margin-top: 120px;
+
+    }
+
+    h1 {
+        font-size: 20px;
+        margin: 13px;
+    }
+
+    .abbout {
+
+        flex-direction: column;
+
+    }
+
+    .lap {
+        padding-left: 0;
+        margin: 10px;
+        font-size: 14px;
+    }
+
+    .drop {
+        font-size: 5px;
+    }
+
+    .less {
+        margin: 0;
+        width: 300px;
+        font-size: 17px;
+    }
+
+    .skk {
+        height: 150px;
+        width: 300px;
+        object-fit: cover;
+        margin: 20px;
+
+    }
+
+    .skill-set-container {
+        width: 95%;
+        padding: 0;
+        padding-bottom: 30px;
+    }
+
+    .skill-label img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .skill-set-container span {
+        font-size: 13px;
+    }
+
+    .skill-label {
+        width: 85px;
+    }
+
+    .project {
+        flex-direction: column;
+        padding-top: 70px;
+        margin-left: 50px;
+        gap: 100px;
+        width: auto;
+    }
+
+    .sahh {
+
+        display: flex;
+        gap: 40px;
+        flex-direction: column;
+        margin-left: 0;
+
+    }
+
+    .alii {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .two {
+        width: 90%;
+        margin: auto;
+        border-radius: 20px;
+    }
+    .sendd{
+        margin-left: 70px;
+        margin-bottom: 20PX;
+    }
 }
