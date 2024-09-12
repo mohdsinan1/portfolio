@@ -373,13 +373,14 @@ h3 {
     .jabb {
         display: flex;
 
-        margin: -40px;
-        margin-top: 60px;
+        margin: 0;
+        margin-top: 90px;
     }
 
     .namee {
         font-size: 25px;
         width: 100%;
+        margin: 50px;
     }
 
     .paraa {
